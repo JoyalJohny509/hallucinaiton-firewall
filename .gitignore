@@ -1,0 +1,14 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Local Database (Very important to ignore)
+chroma_db/
+
+# Environment variables
+.env
+
+# Large model weights (if any)
+*.bin
+*.pt
